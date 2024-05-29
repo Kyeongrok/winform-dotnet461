@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {},
+    ".NETFramework,Version=v4.6.1/win": {},
+    ".NETFramework,Version=v4.6.1/win-arm64": {},
+    ".NETFramework,Version=v4.6.1/win-x64": {},
+    ".NETFramework,Version=v4.6.1/win-x86": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "System.Data.SQLite >= 1.0.115.5"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ocean\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ocean\\RiderProjects\\WindowsFormsApp1\\WindowsFormsApp1\\WindowsFormsApp1.csproj",
+      "projectName": "WindowsFormsApp1",
+      "projectPath": "C:\\Users\\ocean\\RiderProjects\\WindowsFormsApp1\\WindowsFormsApp1\\WindowsFormsApp1.csproj",
+      "packagesPath": "C:\\Users\\ocean\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ocean\\RiderProjects\\WindowsFormsApp1\\WindowsFormsApp1\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\ocean\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "frameworks": {
+        "net461": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "System.Data.SQLite": {
+            "target": "Package",
+            "version": "[1.0.115.5, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-arm64": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'System.Data.SQLite (>= 1.0.115.5)' for '.NETFramework,Version=v4.6.1'.",
+      "libraryId": "System.Data.SQLite",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'System.Data.SQLite (>= 1.0.115.5)' for '.NETFramework,Version=v4.6.1/win'.",
+      "libraryId": "System.Data.SQLite",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1/win"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'System.Data.SQLite (>= 1.0.115.5)' for '.NETFramework,Version=v4.6.1/win-arm64'.",
+      "libraryId": "System.Data.SQLite",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1/win-arm64"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'System.Data.SQLite (>= 1.0.115.5)' for '.NETFramework,Version=v4.6.1/win-x64'.",
+      "libraryId": "System.Data.SQLite",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1/win-x64"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'System.Data.SQLite (>= 1.0.115.5)' for '.NETFramework,Version=v4.6.1/win-x86'.",
+      "libraryId": "System.Data.SQLite",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1/win-x86"
+      ]
+    }
+  ]
+}
